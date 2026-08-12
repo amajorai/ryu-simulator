@@ -1,0 +1,26 @@
+{
+  "name": "@ryu/simulator-sidecar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "ryu-simulator": "./src/main/index.ts"
+  },
+  "main": "src/main/index.ts",
+  "scripts": {
+    "start": "bun run src/main/index.ts",
+    "build": "bun build src/main/index.ts --compile --outfile dist/ryu-simulator",
+    "check-types": "tsc --noEmit",
+    "test": "bun test src"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/node": "^22",
+    "typescript": "^5"
+  },
+  "author": {
+    "name": "A Major Pte. Ltd.",
+    "email": "hello@ryuhq.com"
+  },
+  "homepage": "https://ryuhq.com"
+}
