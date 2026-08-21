@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.simulator",
+  "version": "0.1.14",
+  "description": "Drive iOS Simulators (macOS + Xcode) and Android Emulators from a workspace tab. Ryu runs the device-control toolchain (`simctl`, `adb`) as a local sidecar and exposes the grant-gated `simulator.control` capability: list/boot devices, install & launch apps, open deep links, screenshot, and (Android) tap/swipe/type. The desktop Simulator panel shows whichever platform the connected node supports.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-simulator",
+  "repository": "https://github.com/amajorai/ryu-simulator",
+  "keywords": [
+    "ios",
+    "android",
+    "simulator",
+    "emulator",
+    "mobile"
+  ],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/simulator",
+      "displayName": "Simulators"
+    }
+  }
+}
