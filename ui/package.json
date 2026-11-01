@@ -1,0 +1,10 @@
+{
+  "name": "@ryu/simulator-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Companion-UI package for the Ryu Simulator app (@ryu/simulator). The app is backend-only in the monorepo — its device-control logic ships in ../sidecar and its desktop panel lives in apps/desktop — so this package currently carries only the consumer-side contract test that pins the device-driver invariants a Simulator UI must honor.",
+  "scripts": {
+    "test": "bun test"
+  }
+}

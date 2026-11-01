@@ -1,0 +1,8 @@
+{
+  "name": "ryu-simulator-satellite",
+  "private": true,
+  "workspaces": [
+    "sidecar",
+    "packages/*"
+  ]
+}
